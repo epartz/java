@@ -1,4 +1,4 @@
-public class Ab { 
+public class teste { 
 public static void main(String[] args) {
 
     int idade = 16;
