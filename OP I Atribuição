@@ -1,0 +1,6 @@
+ String nome = "Estefani";
+ int idade = 16;
+ double peso = 60.3;
+ char sexo = 'F';
+ boolean doadorOrgao = false;
+ Date dataNascimento = new Date();
