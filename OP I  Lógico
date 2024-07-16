@@ -1,0 +1,9 @@
+ boolean condiçao1 = true;
+    boolean condiçao2 = false;
+        if (condiçao1 && condiçao2){ //if (condiçao1 && ( 7 > 4) ) {
+            System.out.println("as duas condiçoes sao verdadeiras?" );
+        }
+        if (condiçao1 || condiçao2){
+            System.out.println("Umas das condiçoes é verdadeira");
+        }
+            System.out.println("x");
