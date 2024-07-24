@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class rBuilder {
+    public static void main(String[] args) {
+        Scanner rb = new Scanner(System.in);
+        System.out.println("enter you full name : ");
+        String name = rb.nextLine();
+        System.out.println("enter you email address : ");
+        String email= rb.nextLine();
+        System.out.println("enter your phone number : ");
+        String phone = rb.nextLine();
+        System.out.println("enter your address : ");
+        String address  = rb.nextLine();
+        System.out.println("enter your professional title : ");
+        String title = rb.nextLine();
+        System.out.println("enter your sumary statement : ");
+        String sumary = rb.nextLine();
+        System.out.println("\n Resume");
+        System.out.println("-------------");
+        System.out.println("Name   : "  + name);
+        System.out.println("Email   : "  + email);
+        System.out.println("Phone    : "  + phone);
+        System.out.println("Address   : "  + address);
+        System.out.println("-------------");    
+        System.out.println("Professional Title : " + title);
+        System.out.println("Sumary : " + sumary);    
+
+
+        rb.close();
+    }
+}
